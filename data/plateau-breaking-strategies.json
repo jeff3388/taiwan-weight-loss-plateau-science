@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "title": "突破停滯期策略資料庫",
+    "description": "基於 RCT 與機制研究的減重停滯期突破策略（含證據強度）",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "framing": "停滯期突破的目標不是『更積極減少熱量』，而是在維持代謝率的同時創造可持續的熱量赤字"
+  },
+  "strategies": [
+    {
+      "id": "strat_001",
+      "strategy": "飲食輪換（Diet Break）",
+      "description": "每 8–12 週的積極減重後，進行 2 週的維持期熱量攝取（TDEE，不追求赤字）",
+      "mechanism": "短暫的熱量充足期讓瘦素部分回升、T3 正常化，緩解代謝適應",
+      "evidence_grade": "B",
+      "pmid": "29025102",
+      "key_reference": "Byrne NM et al. (2018) Int J Obes 42(2):129-138. PMID: 29025102",
+      "study_result": "「間歇性能量限制」（2週限制/2週維持，交替）vs 持續限制：相同時間後，間歇組多減 1.8 kg，且停滯現象較少",
+      "practical_protocol": "積極期：TDEE - 400 kcal，持續 8–12 週 → 維持期：TDEE，持續 2 週 → 重複",
+      "common_concern": "「維持期會復胖嗎？」→ 若熱量精確控制在 TDEE，體重不應增加（可能因水分短暫增加 0.5–1 kg）",
+      "taiwan_context": "台灣減重文化缺乏「維持期」概念，習慣持續限制熱量。Diet Break 是符合科學的策略，但需精確追蹤熱量"
+    },
+    {
+      "id": "strat_002",
+      "strategy": "高蛋白飲食（1.6–2.2 g/kg 體重）",
+      "description": "在停滯期增加蛋白質比例（降低等量的碳水化合物或脂肪熱量）",
+      "mechanism": [
+        "保留瘦體質量（LBM），減少肌肉性 REE 下降",
+        "蛋白質熱效應（TEF）最高（25–30%），相同熱量中實際吸收熱量最少",
+        "最有效抑制飢餓素的飲食因素"
+      ],
+      "evidence_grade": "A",
+      "pmid_1": "24092765",
+      "pmid_2": "15466943",
+      "key_reference_1": "Helms ER et al. (2014) J Int Soc Sports Nutr 11(1):20. PMID: 24092765",
+      "key_reference_2": "Westerterp-Plantenga MS et al. (2004) J Nutr 134(7):1717-1729. PMID: 15466943",
+      "practical_target": "停滯期蛋白質目標：每日體重（kg）× 1.8–2.0 g，分散於 3–4 餐",
+      "taiwan_protein_sources": [
+        "雞胸肉 100g ≈ 23g 蛋白質",
+        "板豆腐 150g ≈ 12g 蛋白質",
+        "茶葉蛋 2顆 ≈ 14g 蛋白質",
+        "無糖豆漿 400ml ≈ 14g 蛋白質"
+      ],
+      "taiwan_context": "台灣人均蛋白質攝取量約 75–85g/day，停滯期需提升至 90–120g（70 kg 體重）。便利超商提供豐富的高蛋白食材"
+    },
+    {
+      "id": "strat_003",
+      "strategy": "阻力訓練優先（取代部分有氧）",
+      "description": "增加阻力訓練頻率，減少長時間低強度有氧訓練",
+      "mechanism": "阻力訓練最有效維持瘦體質量；過多有氧訓練可能進一步抑制瘦素",
+      "evidence_grade": "A",
+      "pmid": "21537565",
+      "practical_protocol": "阻力訓練 3 次/週 + 中強度有氧 2 次/週（150 分鐘/週），優於每天 1 小時有氧",
+      "taiwan_context": "台灣減重文化偏好「跑步、走路」而輕視重量訓練，這在停滯期是次優策略。健身房或居家彈力帶訓練是更好的停滯期突破工具"
+    },
+    {
+      "id": "strat_004",
+      "strategy": "睡眠最佳化（7–9 小時）",
+      "description": "改善睡眠質量與時長，優化荷爾蒙環境",
+      "mechanism": [
+        "充足睡眠正常化瘦素分泌（睡眠不足 → 瘦素↓ 30%）",
+        "降低飢餓素（睡眠不足 → 飢餓素↑ 28%）",
+        "降低皮質醇，減少腹部脂肪堆積傾向"
+      ],
+      "evidence_grade": "B",
+      "pmid": "15531540",
+      "key_reference": "Spiegel K et al. (2004) Ann Intern Med 141(11):846-850. PMID: 15531540",
+      "effect_size": "睡眠 5.5 小時 vs 8.5 小時的受試者：同等熱量赤字下，肌肉流失增加 55%，脂肪流失減少（共同作者 Plaman EM 2012 PMID: 22430226）",
+      "taiwan_context": "台灣人均睡眠約 6.5 小時，睡眠不足是全台最普遍的減重阻礙因素之一，但最少被討論。改善睡眠是零成本的停滯期突破策略"
+    },
+    {
+      "id": "strat_005",
+      "strategy": "NEAT 主動提升",
+      "description": "刻意增加日常非運動性活動（走路、站立、爬樓梯）",
+      "mechanism": "對抗代謝適應誘發的 NEAT 下降（代謝適應使 NEAT 無意識降低 100–150 kcal/day）",
+      "evidence_grade": "B",
+      "pmid": "12880226",
+      "practical_targets": [
+        "每日步行目標：7,000–10,000 步",
+        "辦公使用站立桌（+50–100 kcal/day）",
+        "每小時起身走動 2–3 分鐘",
+        "搭乘電梯改爬樓梯（每層樓約 +3 kcal）"
+      ],
+      "taiwan_context": "台灣 MRT、超商密度高，日常步行量相對較高，但辦公族久坐仍普遍。將通勤步行計入每日 NEAT 目標是台灣適用的策略"
+    },
+    {
+      "id": "strat_006",
+      "strategy": "熱量週期化（Calorie Cycling）",
+      "description": "一週內熱量分布不均：高訓練日較高熱量，休息日較低",
+      "example": "訓練日：TDEE - 200 kcal；休息日：TDEE - 600 kcal；週平均：TDEE - 400 kcal",
+      "proposed_benefit": "訓練日充足燃料維持運動表現；休息日積極赤字；避免長期持續赤字的代謝適應",
+      "evidence_grade": "C（初步，缺乏高品質 RCT）",
+      "honest_assessment": "目前無足夠 RCT 確認熱量週期化優於等量熱量赤字的持續限制；理論合理但實証有限",
+      "taiwan_context": "熱量週期化在台灣健身社群流行，概念合理，但實際執行需要精確的熱量追蹤，對一般減重者門檻較高"
+    },
+    {
+      "id": "strat_007",
+      "strategy": "確認真正的停滯（排除測量誤差）",
+      "description": "在採取任何策略前，先確認停滯期是真實的代謝停滯，而非測量誤差",
+      "common_false_plateaus": [
+        "水分波動（月經週期、鈉攝取、訓練後肌肉充血）：可使體重在 1–3 天內波動 ±1.5–2 kg",
+        "「吃得少」但實際低估熱量攝取（研究顯示人們平均低估攝取量 20–40%）",
+        "睡眠不足或壓力導致的短期水分滯留"
+      ],
+      "true_plateau_definition": "在精確追蹤熱量與體重的情況下，連續 3 週以上體重無變化",
+      "evidence_grade": "B",
+      "pmid": "24014350",
+      "taiwan_context": "台灣減重班學員常在體重波動的高點測量而認定停滯。建議每天固定時間測量（晨起空腹），取 7 天平均值，才是有意義的趨勢"
+    }
+  ]
+}

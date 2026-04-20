@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "title": "減重誘發荷爾蒙變化資料庫",
+    "description": "減重過程中瘦素、飢餓素、T3、皮質醇等荷爾蒙的量化變化與生理意義",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "landmark_study": "Sumithran P et al. (2011) N Engl J Med 365(17):1597-1604. PMID: 21546309",
+    "study_design": "10 週極低熱量飲食（550 kcal/day）後，追蹤 62 週的荷爾蒙變化（n=50）",
+    "key_finding": "減重誘發的荷爾蒙改變不隨時間恢復，在維持體重 1 年後仍持續存在，驅動持續性的飢餓感增加"
+  },
+  "hormones": [
+    {
+      "id": "hor_001",
+      "hormone": "瘦素（Leptin）",
+      "role": "飽足信號、長期能量平衡調節、代謝率調控",
+      "produced_by": "脂肪細胞",
+      "change_with_10pct_weight_loss": "-50 至 -60%",
+      "change_persists_at_1yr": true,
+      "evidence_grade": "A",
+      "pmid_1": "15627709",
+      "pmid_2": "21546309",
+      "key_reference": "Rosenbaum M et al. (2005) J Clin Invest 115(12):3579-3586. PMID: 15627709",
+      "physiological_consequence": "瘦素大幅下降後，下視丘接收到「飢荒」信號：交感神經活性下降、甲狀腺素分泌減少、NEAT 降低、食慾中樞持續受到驅動",
+      "why_matters": "這是為什麼減重者「即使已恢復正常體重，仍感到比減重前更餓」的核心原因",
+      "taiwan_context": "台灣大多數商業減重計畫不告訴學員瘦素下降這個事實，導致學員在停滯期自責，而非理解這是正常的生理反應"
+    },
+    {
+      "id": "hor_002",
+      "hormone": "飢餓素（Ghrelin）",
+      "role": "飢餓信號、進食啟動",
+      "produced_by": "胃壁細胞",
+      "change_with_weight_loss": "持續升高，甚至高於減重前基準值",
+      "change_persists_at_1yr": true,
+      "evidence_grade": "A",
+      "pmid": "21546309",
+      "key_reference": "Sumithran P et al. (2011) N Engl J Med 365(17):1597-1604. PMID: 21546309",
+      "physiological_consequence": "飢餓素持續高於基準，驅動每餐前強烈飢餓感，且進食後飢餓素的正常下降幅度也減小",
+      "why_it_doesnt_normalize": "飢餓素是對抗體脂肪減少的進化適應，不會因「習慣」而消退",
+      "intervention": "高蛋白飲食（每餐 ≥ 25g 蛋白質）是最有效抑制飢餓素的飲食策略",
+      "taiwan_context": "台灣傳統低蛋白早餐（稀飯、土司配果醬）是最差的飢餓素控制策略，建議改為雞蛋+豆漿早餐"
+    },
+    {
+      "id": "hor_003",
+      "hormone": "三碘甲狀腺素（T3）",
+      "role": "直接調控基礎代謝率、體溫調節",
+      "change_with_calorie_restriction": "低熱量飲食下 T3 下降約 10–20%",
+      "evidence_grade": "A",
+      "pmid": "19910503",
+      "key_reference": "Mäestu J et al. (2010) J Appl Physiol 108(3):516-522. PMID: 19910503",
+      "physiological_mechanism": "甲狀腺素受下視丘-腦垂體軸調控，熱量限制時 TSH 反應性下降，T3 分泌減少",
+      "clinical_distinction": "減重誘發的 T3 下降是正常生理反應（不需要甲狀腺補充治療）；但需與真正的甲狀腺功能低下區分",
+      "warning": "不建議使用甲狀腺藥物「提高代謝率」，此做法有嚴重心臟風險",
+      "taiwan_context": "台灣有些非正規減重診所使用甲狀腺藥物促進代謝，此為危險做法，衛福部已明確禁止"
+    },
+    {
+      "id": "hor_004",
+      "hormone": "GLP-1（類升糖素胜肽-1）",
+      "role": "餐後飽足感、胰島素分泌促進",
+      "change_with_weight_loss": "減重後 GLP-1 餐後反應可能下降",
+      "evidence_grade": "B",
+      "pmid": "21546309",
+      "note": "GLP-1 受體促效劑（如 Ozempic/Wegovy）的治療機制正是補充這個減重誘發的 GLP-1 缺陷",
+      "taiwan_context": "台灣 GLP-1 受體促效劑（司美格魯肽）2024 年核准減重適應症，是首個有效對抗荷爾蒙性停滯期的藥物工具，但需醫師評估使用"
+    },
+    {
+      "id": "hor_005",
+      "hormone": "皮質醇（Cortisol）",
+      "role": "壓力荷爾蒙、脂肪動員（急性）vs 脂肪儲存（慢性）",
+      "change_with_chronic_dieting": "長期熱量限制可能升高慢性皮質醇",
+      "evidence_grade": "B",
+      "pmid": "20940323",
+      "physiological_consequence": "慢性高皮質醇促進腹部脂肪堆積（即使整體體重下降），是「明明在減重但腰圍不縮」的原因之一",
+      "interventions": [
+        "充足睡眠（7–9 小時）：最有效的皮質醇正常化策略",
+        "避免超高強度訓練（每週有氧超過 6 次）",
+        "壓力管理：冥想、正念有輕度但真實的皮質醇降低效果"
+      ],
+      "taiwan_context": "台灣職場高壓文化、睡眠不足普遍（台灣人均睡眠約 6.5 小時），慢性高皮質醇是台灣都市族群腹部肥胖的重要但常被忽略的因素"
+    },
+    {
+      "id": "hor_006",
+      "hormone": "胰島素（Insulin）",
+      "role": "血糖調節、脂肪儲存",
+      "change_with_weight_loss": "胰島素敏感性通常在減重後改善",
+      "positive_note": "減重 5–10% 通常可顯著改善胰島素敏感性（對代謝健康正面）",
+      "evidence_grade": "A",
+      "pmid": "12351468",
+      "taiwan_context": "台灣前驅糖尿病盛行率超過 25%，減重是最有效的胰島素敏感性改善介入，此荷爾蒙在停滯期有正面變化"
+    }
+  ]
+}

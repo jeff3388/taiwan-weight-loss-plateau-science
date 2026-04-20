@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "title": "代謝適應（Adaptive Thermogenesis）機制資料庫",
+    "description": "減重誘發的代謝適應量化數據與機制",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_source": "Rosenbaum M & Leibel RL (2010) Obesity 18(Suppl 1):S27-33. PMID: 20813011",
+    "secondary_sources": [
+      "Fothergill E et al. (2016) Obesity 24(8):1612-1619. PMID: 27035201",
+      "Müller MJ et al. (2015) Eur J Clin Nutr 69(7):773-779. PMID: 25669319"
+    ],
+    "definition": "代謝適應（Adaptive Thermogenesis）：體重減少後，基礎代謝率（REE）的下降幅度超出僅由瘦體質量減少所能解釋的部分。換言之，身體『比預期燒得更少』"
+  },
+  "core_findings": [
+    {
+      "id": "at_001",
+      "finding": "代謝適應的量化幅度",
+      "data": "減少 10% 體重後，REE 下降約 100–200 kcal/day，超過體組成改變的預測值",
+      "mechanism": "交感神經活性下降、甲狀腺素（T3）降低、骨骼肌細胞粒線體效率提高（耗氧量降低）",
+      "evidence_grade": "A",
+      "pmid": "20813011",
+      "key_implication": "這意味著一個減輕了 10 公斤的人，其每日所需熱量比同等體重但未曾減重的人少 100–200 kcal",
+      "taiwan_context": "這是台灣減重班學員常見的困惑：「我已經吃和同事一樣少了，為什麼我不繼續瘦？」——代謝適應是主要原因之一"
+    },
+    {
+      "id": "at_002",
+      "finding": "代謝適應的持久性（6年追蹤數據）",
+      "study": "The Biggest Loser 6-year follow-up study",
+      "data": "14 名電視節目極端減重者，6 年後體重大量回彈，但代謝適應仍存在：平均 REE 比預測值低約 704 kcal/day",
+      "evidence_grade": "B（觀察性，n=14，無對照組）",
+      "pmid": "27035201",
+      "key_reference": "Fothergill E et al. (2016) Obesity 24(8):1612-1619. PMID: 27035201",
+      "caveat": "此研究樣本量小，且使用極端快速減重方式，不能完全代表一般節食者的情況",
+      "honest_interpretation": "代謝適應在極端減重後確實長期持續，但中等速度（每週0.5–1kg）減重的代謝適應幅度較小",
+      "taiwan_context": "台灣流行的快速減重方式（代餐、極低熱量飲食）可能誘發更嚴重的代謝適應，這是極低熱量飲食長期效果不佳的原因之一"
+    },
+    {
+      "id": "at_003",
+      "finding": "代謝適應的成分分解",
+      "components": [
+        {
+          "component": "甲狀腺素（T3）降低",
+          "contribution_to_at_kcal": "約 30–50",
+          "mechanism": "T3 是調控基礎代謝率的核心荷爾蒙，熱量限制時 T3 合成減少",
+          "pmid": "19910503"
+        },
+        {
+          "component": "交感神經活性下降",
+          "contribution_to_at_kcal": "約 30–50",
+          "mechanism": "交感神經系統驅動棕色脂肪組織（BAT）生熱；減重後 BAT 活性下降",
+          "pmid": "20813011"
+        },
+        {
+          "component": "骨骼肌效率提高（耗能降低）",
+          "contribution_to_at_kcal": "約 40–70",
+          "mechanism": "骨骼肌細胞在能量節省模式下，完成相同功的氧耗量降低約 25%",
+          "pmid": "20813011",
+          "implication": "這解釋了為什麼減重後「同樣的運動消耗的熱量更少了」"
+        },
+        {
+          "component": "瘦素介導的自主神經適應",
+          "contribution_to_at_kcal": "約 20–50",
+          "mechanism": "瘦素下降觸發副交感神經主導，降低靜止能量消耗",
+          "pmid": "15627709"
+        }
+      ],
+      "evidence_grade": "A（各成分分別有 RCT 支持）"
+    },
+    {
+      "id": "at_004",
+      "finding": "非運動性活動熱效應（NEAT）的代謝適應",
+      "data": "減重後 NEAT 下降 100–150 kcal/day（無意識減少走動、站立、小動作）",
+      "mechanism": "瘦素信號降低，中樞神經系統啟動「能源節省模式」，無意識減少日常活動",
+      "evidence_grade": "A",
+      "pmid": "12880226",
+      "key_reference": "Levine JA et al. (2003) Science 307(5709):584-586. PMID: 12880226",
+      "practical_implication": "減重者感覺「懶了」或「沒力氣動」，部分原因是神經生理驅動的，不完全是意志力問題",
+      "intervention": "主動增加 NEAT（站立工作台、多走路、多走樓梯）可部分抵消代謝適應",
+      "taiwan_context": "台灣辦公族久坐比例高，減重期間 NEAT 下降加上工作久坐，使每日能量赤字比計算值更小"
+    }
+  ],
+  "mitigation_strategies": [
+    {
+      "strategy": "維持足夠蛋白質攝取（1.6–2.2 g/kg）",
+      "mechanism": "最大化肌肉保留，減少 REE 下降幅度",
+      "evidence_grade": "A",
+      "pmid": "24092765",
+      "key_reference": "Helms ER et al. (2014) J Int Soc Sports Nutr 11(1):20. PMID: 24092765"
+    },
+    {
+      "strategy": "阻力訓練（每週 2–3 次）",
+      "mechanism": "維持瘦體質量，抵抗肌肉流失性 REE 下降",
+      "evidence_grade": "A",
+      "pmid": "21537565"
+    },
+    {
+      "strategy": "避免過度熱量限制（不低於 TDEE - 500 kcal）",
+      "mechanism": "越激烈的熱量限制，代謝適應越嚴重",
+      "evidence_grade": "B",
+      "recommendation_kcal_deficit": "每日赤字 300–500 kcal 為最佳化範圍（速度慢但代謝適應最小）",
+      "taiwan_context": "台灣代餐、斷食等極低熱量飲食廣泛流行，長期可能誘發嚴重代謝適應，是停滯期和回彈的重要原因"
+    }
+  ]
+}
