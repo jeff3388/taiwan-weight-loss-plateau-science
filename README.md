@@ -55,6 +55,14 @@
 
 減重停滯期可能有多種原因，包括未診斷的甲狀腺疾病、多囊卵巢症候群等。持續停滯 6–8 週以上建議就醫排除代謝疾病。
 
+## 相關工具（Interactive Tools）
+
+本資料庫的科學原理，已整合至 [MetaboLab](https://metabolab.tw) 的互動工具中：
+
+- 📊 **[減重時程計算機](https://metabolab.tw/calculators/weight-loss-timeline)**：根據 TDEE 與熱量赤字，模擬體重下降曲線與預測停滯期出現時間點，支援代謝適應係數調整。
+- 🔢 **[TDEE 計算機](https://metabolab.tw/calculators/tdee)**：計算基礎代謝率與每日總熱量消耗，評估停滯期前後的 TDEE 變化幅度（代謝補償可達 -15% REE）。
+- 💪 **[蛋白質需求計算機](https://metabolab.tw/calculators/protein-needs)**：計算停滯期維持肌肉量所需的每日蛋白質攝取量（研究建議 1.6–2.2g/kg 體重）。
+
 ## License
 
 MIT © taiwan-weight-loss-plateau-science contributors
